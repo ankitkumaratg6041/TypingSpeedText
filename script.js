@@ -40,9 +40,7 @@ const wordcounter = (myStr) => {
 
 const compareWords = (str1, str2) => {
     let mystr1 = str1.split(" ");
-    console.log(mystr1);
-    let mystr2 = str2.split(" ");
-    console.log(mystr2);
+    let mystr2 = str2.split(" ")
     let count = 0;
 
     for(let i=0; i<mystr1.length; i++) {
